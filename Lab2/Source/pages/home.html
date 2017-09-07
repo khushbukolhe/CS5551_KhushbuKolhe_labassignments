@@ -1,0 +1,35 @@
+<div ng-controller="homeController as vm">
+    <br/>
+    <div>
+        <div class="home_oneLineAllignment">
+            <label>Search Place:</label>
+            <input places-auto-complete size=50
+                   ng-model="vm.address"
+                   component-restrictions="{country:'us'}"
+                   types="{{types}}"
+                   on-place-changed="vm.placeChanged()"/>
+        </div>
+        <div class="home_oneLineAllignment">
+            <input id="incidentBox" type="checkbox" ng-click="showIncidents($event)"> Show Incidents
+        </div>
+    </div>
+    <br/>
+    <ng-map id="map"
+            zoom="10"
+            center='current-position'
+            geo-fallback-center="[40.74, -74.18]">
+        <marker ng-repeat="myMarker in incidents"
+                position="[{{myMarker.lat}},{{myMarker.lng}}]"
+                icon="{url:'images/warning-icon.png',scaledSize:[40,40],origin: [0,0],anchor: [50,50]}"
+                on-click="displayMarkerInfo(this, myMarker.id)"
+                id="{{myMarker.id}}">
+        </marker>
+        <info-window id="bar">
+            <div ng-non-bindable style="width: 200px">
+                {{infoWindowDescription}}
+            </div>
+        </info-window>
+        <traffic-layer></traffic-layer>
+        <transit-layer></transit-layer>
+    </ng-map>
+</div>
