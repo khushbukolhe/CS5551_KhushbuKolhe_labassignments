@@ -126,10 +126,10 @@ function onFacebookLogin() {
 function updateUIForFbLoggedInUser (fbUser) {
     $('#fbUserImageTxt').show();
     $('#fbUserNameTxt').show();
-    $('#lblfbName').show();
+    $('#lblFbName').show();
     $('#fbUserImage').show();
 
-    $('#lblfbName').text(fbUser.name);
+    $('#lblFbName').text(fbUser.name);
     var googleImageElement = $('#fbUserImage');
     googleImageElement.attr('src', fbUser.imageURL ? fbUser.imageURL : '');
     googleImageElement.width(200);
@@ -139,7 +139,7 @@ function updateUIForFbLoggedInUser (fbUser) {
 function resetFbUIForLoggedOutUser() {
     $('#fbUserImageTxt').hide();
     $('#fbUserNameTxt').hide();
-    $('#lblfbName').hide();
+    $('#lblFbName').hide();
     $('#fbUserImage').hide();
     sessionStorage.removeItem('fbUser');
     enableHomeButton();
