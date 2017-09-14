@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <meta name="google-signin-client_id" content="336141332226-cebqf1kvmkvn418pvcn35693knd2pht4.apps.googleusercontent.com">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="js/app.js"></script>
+    <script src="js/authentication.js"></script>
+</head>
+<body>
+<script>
+    window.fbAsyncInit = function() {
+        FB.init({
+
+            appId            : '125098891548129',
+            autoLogAppEvents : true,
+            xfbml            : true,
+            version          : 'v2.10'
+        });
+        FB.AppEvents.logPageView();
+        FB.Event.subscribe('auth.statusChange', auth_status_change_callback);
+    };
+
+    (function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
+
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">Translate & Videos App</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+        </div>
+    </div>
+</nav>
+
+<div class="container-fluid text-center">
+    <div class="button_allignment">
+        <div class="button_allignment_center color_wheat">
+            <h1>Translate & Video Search Application</h1>
+        </div>
+        <div class="button_allignment_center">
+            <div class="Login">
+                <div id="loginButtonsDiv" class="button_allignment">
+                    <div id="googleOAuth" class="button_allignment_center">
+                        <div id="googleLoginBtn" class="g-signin2" data-width="254" data-height="40" data-onsuccess="googleOnSignIn"></div>
+                        <button id="googleLogOutBtn" onclick="googleSignOut()" class="google_log_out_btn">Google SignOut</button>
+                    </div>
+                    <br>
+                    <div id="facebookOAuth" class="button_allignment_center">
+                        <div class="fb-login-button"
+                             onlogin="onFacebookLogin"
+                             onclick="onFacebookClick"
+                             data-max-rows="1"
+                             data-size="large"
+                             data-button-type="continue_with"
+                             data-show-faces="false"
+                             data-auto-logout-link="true"
+                             data-use-continue-as="false">
+                        </div>
+                    </div>
+                </div>
+                <div id="userDetails" class="user_details">
+                    <br>
+                    <div id="googleUserDetails">
+                        <p id="googleUserImageTxt">Profile Photo Google</p><img id="googleUserImage">
+                        <br>
+                        <label id="googleUserNameTxt">Name:</label>   <label id="lblGoogleName"></label>
+                    </div>
+                    <div id="fbUserDetails">
+                        <p id="fbUserImageTxt">Profile Photo Facebook</p><img id="fbUserImage">
+                        <br>
+                        <label id="fbUserNameTxt">Name:</label>   <label id="lblFbName"></label>
+                    </div>
+                </div>
+                <div class="btn_padding">
+                    <button id="homeBtn" onclick="homeClicked()" class="google_log_out_btn">Home</button>
+                </div>
+            </div>
+        </div>
+        <div style="font-size: 25px; padding-top: 20px; color: darkblue;">
+          <p>  Translate & Video Search App is a  </p>
+            <p>Mash up Web Application  which is build using
+              Yandex Translate API and Youtube data API</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

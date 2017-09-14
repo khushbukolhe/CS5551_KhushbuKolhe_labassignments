@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="https://apis.google.com/js/api.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+
+
+    <script src="js/app.js"></script>
+    <title>Youtube Search Engine.</title>
+</head>
+<body ng-app="myApp" ng-controller="youtubeController" ng-init="getLanguages()">
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            </button>
+            <a class="navbar-brand" href="index.html">Translate & Videos App</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.html"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div>
+    <div class="translate_container_spaced">
+        <div><h3 class="text-center login-title">Translator</h3></div>
+        <div class="user_details">
+            <div class="translate_container">
+                <div class="translate_input">
+                    <h3>Input Text</h3>
+                </div>
+                <div class="color_black">
+                    <input type="text" id="txt_SearchBox" ng-model="searchText" size="40" style="height: 45px; font-size: 20px ; word-wrap: break-word">
+                </div>
+            </div>
+            <div class="translate_container" >
+                <div class="translate_input">
+                    <h3>Select a Language:</h3>
+                </div>
+                <div class="user_details color_black">
+                    <select style="width: 200px; font-size: 20px; height: 45px" ng-model="selectedLang" ng-options="value for (key, value) in availableLangs">
+                    </select>
+                    <br>
+                    <button style="width: 150px; font-size: 20px" ng-click="translateWord()" id="btn_translate"> Translate</button>
+                </div>
+            </div>
+            <div>
+                <div class="translate_input">
+                    <h3> Translated Text</h3>
+                </div>
+                <div class="color_black">
+                    <input disabled type="text" id="txt_Language" ng-model="langTranslate"  size="40" style="height: 45px; font-size: 20px ; word-wrap: break-word">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="search_videos_container">
+        <div class="search_videos">
+            <input  type="text" id="txt_SearchBoxForVideos" ng-model="searchTextforVideos" size="75" style="height: 45px">
+            <button ng-click="searchVideo()" id="btn_searchVideos"> Search Videos</button>
+        </div>
+
+        <div class="search_videos_box">
+            <iframe ng-repeat="v in videoIDs" width="420" height="345" ng-src="{{v.url}}"></iframe>
+        </div>
+    </div>
+</div>
+</body>
+</html>

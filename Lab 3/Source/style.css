@@ -1,0 +1,198 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    background-size: cover;
+    background-image: url("images/Img5.png");
+}
+
+
+.center-block {
+    width:250px;
+    padding:10px;
+
+}
+
+.search_videos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 20px;
+    padding-bottom: 40px;
+    color: black;
+}
+
+.search_videos_container {
+    display: flex;
+    flex-direction: column;
+    /*border: 1px solid white;*/
+    /*border-radius: 10px;*/
+    color: wheat;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+}
+
+.button {
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    width: 265px;
+    height: 45px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.btn_padding {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.button_allignment{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.button_allignment_center{
+    display: flex;
+    align-self: center;
+    padding-bottom: 20px;
+}
+
+.google_log_out_btn {
+    height:40px;
+    width: 254px;
+}
+
+.user_details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.translate_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.translate_container_spaced {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: wheat;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 50px;
+}
+
+.color_black {
+    color: black;
+}
+
+.color_wheat {
+    color: wheat;
+}
+
+.translate_input {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.search_videos_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.Login{
+    display: flex;
+    flex-direction: column;
+    flex-grow:1;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -o-border-radius:20px;
+    color: black;
+}
+
+
+/*!* Shared *!*/
+/*.loginBtn {*/
+    /*box-sizing: border-box;*/
+    /*position: relative;*/
+    /*!* width: 13em;  - apply for fixed size *!*/
+    /*margin: 0.2em;*/
+    /*padding: 0 15px 0 46px;*/
+    /*border: none;*/
+    /*text-align: left;*/
+    /*line-height: 34px;*/
+    /*white-space: nowrap;*/
+    /*border-radius: 0.2em;*/
+    /*font-size: 16px;*/
+    /*color: #FFF;*/
+/*}*/
+
+/*!* Google *!*/
+/*.loginBtn--google {*/
+    /*!*font-family: "Roboto", Roboto, arial, sans-serif;*!*/
+    /*background: #DD4B39;*/
+    /*icon: url("googleIcon.png");*/
+    /*background-image: url('/2x/btn_google_signin_light_normal_web@2x.png');*/
+    /*background: url('/identity/sign-in/g-normal.png') transparent 5px 50% no-repeat;*/
+
+
+/*}*/
+
+
+
+/*!*.loginBtn--google:before {*!*/
+    /*!*border-right: #BB3F30 1px solid;*!*/
+    /*!*background-image: url('googleIcon.png') 6px 6px no-repeat;*!*/
+/*!*}*!*/
+/*!*.loginBtn--google:hover,*!*/
+/*!*.loginBtn--google:focus {*!*/
+    /*!*background: #E74B37;*!*/
+/*!*}*!*/
