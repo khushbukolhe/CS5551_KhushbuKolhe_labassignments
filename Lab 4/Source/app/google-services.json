@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "918514236969",
+    "project_id": "goauthbarcodereader"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:918514236969:android:a15037dd9cb98e25",
+        "android_client_info": {
+          "package_name": "com.example.khushbukolhe.goauthbarcodereader"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "918514236969-981e52n3kq20p2ib630goqi2g3iehum0.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "918514236969-ilhjmfhm3sm4fhoccn9opei9pvdag0td.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.khushbukolhe.goauthbarcodereader",
+            "certificate_hash": "6a120ba1beb3cad49424b67098cdbcab6b44eef6"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUezUDAESAOt8TLsXEUzjrBdtLGxUaT0U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

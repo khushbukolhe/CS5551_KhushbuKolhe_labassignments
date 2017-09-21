@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GOAuthBarcodeReader</string>
+    <string name="signed_in_fmt">User is signed in</string>
+    <string name="signed_out">User is signed out</string>
+    <string name="facebook_app_id">349315535514944</string>
+    <string name="fb_login_protocol_scheme">fb349315535514944</string>
+</resources>

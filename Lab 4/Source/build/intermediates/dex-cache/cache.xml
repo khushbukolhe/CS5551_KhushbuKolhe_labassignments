@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/ss025783/.android/build-cache/cb972f12d14d579bfb6a8f44992bb8af7f181672/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/Users/ss025783/Projects/AndroidStudioProjects/GOAuthBarcodeReader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_fc23cb6b8492b6273e3073347d319056bd27cce8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ss025783/.android/build-cache/5600ee36f9bf7c8741766c2b769fed8a3a8448ad/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/Users/ss025783/Projects/AndroidStudioProjects/GOAuthBarcodeReader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4414f82c39a68c143ef730d7eb29f9054a22c1fa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ss025783/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/Users/ss025783/Projects/AndroidStudioProjects/GOAuthBarcodeReader/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.3.1_db58b573e01e8ed830079595ead4d975b582ed5d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ss025783/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-applinks/1.4.0/8ad21bf21784dacce5f2043afb97218cc377e835/bolts-applinks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="/Users/ss025783/Projects/AndroidStudioProjects/GOAuthBarcodeReader/app/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-applinks-1.4.0_5879e0fd9a8f6cb281fdffb437b555c84395c4c8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ss025783/Projects/AndroidStudioProjects/GOAuthBarcodeReader/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/ss025783/Projects/AndroidStudioProjects/GOAuthBarcodeReader/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_3f15b9894b7a5847951b772d4c47f384e12eea40/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ss025783/.android/build-cache/3b410ffedadb81acdc0c9340aadb8be1cfef5004/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/Users/ss025783/Projects/AndroidStudioProjects/GOAuthBarcodeReader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_882222b9bafedaba97d3cedf2c06610a7c5dcd1f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ss025783/.android/build-cache/72f0369e1d73633dcac7bcad7ea3dd0aa0689141/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/Users/ss025783/Projects/AndroidStudioProjects/GOAuthBarcodeReader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6668dffbe80dff0d0684875d71bd7f1694b3d5a4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ss025783/.android/build-cache/4fb8dbed36128ee447fdbf3393b903170cd5b446/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/Users/ss025783/Projects/AndroidStudioProjects/GOAuthBarcodeReader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2971a34fb1d24f4339764d7c1d3eba817b3f8dfb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ss025783/.android/build-cache/6dba507766a4c3c7b2aa40d349b5b9a379163b9b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e09663005d70dcedff0bb77211b9ac52d8b69421">
+        <dex dex="/Users/ss025783/Projects/AndroidStudioProjects/GOAuthBarcodeReader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4cbbe50866ed5a6730bea30bfce847468b40112b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ss025783/.android/build-cache/26678d3ede705063e9a3ddab277ee209c4dfd2e7/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
+        <dex dex="/Users/ss025783/Projects/AndroidStudioProjects/GOAuthBarcodeReader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_78d88ffd2760cd19843e58bb69a0575c4331ab94/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ss025783/Projects/AndroidStudioProjects/GOAuthBarcodeReader/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e291b3465e3d6b498c902fdda8681c4757c7c5af">
+        <dex dex="/Users/ss025783/Projects/AndroidStudioProjects/GOAuthBarcodeReader/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_b1d875778257d9ea5869c682c51b8fe7cfe3b1e1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ss025783/.android/build-cache/1bdb156de88e6ad5449a042d05b286d307a065fb/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/Users/ss025783/Projects/AndroidStudioProjects/GOAuthBarcodeReader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1f4ec52024027bd5e2048b180b8ccc1380f47bc2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ss025783/.android/build-cache/9b35d5e6511da9464d0faee248586b452a67c8c4/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/Users/ss025783/Projects/AndroidStudioProjects/GOAuthBarcodeReader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_04914c2d5fc324a0e1cc5e786b53de7d5699a790/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ss025783/.android/build-cache/d60df0f07b03d79c746a23f1c9dcbba6ea7ef3ef/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/ss025783/Projects/AndroidStudioProjects/GOAuthBarcodeReader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_47ee7e6c44a38cac9643b2afd0a898fe27f31528/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ss025783/.android/build-cache/d45fd21976d6a7f2a1684f8eb8e124d48a33489f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="807751a24cf96566fd8675517c94d8463cf364db">
+        <dex dex="/Users/ss025783/Projects/AndroidStudioProjects/GOAuthBarcodeReader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f8a2e3e27e85c9dbf6950122481b752f5df171ba/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ss025783/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/ss025783/Projects/AndroidStudioProjects/GOAuthBarcodeReader/app/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-tasks-1.4.0_475407dc35d78786a01bfcc57ad9fcfa01930767/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ss025783/.gradle/caches/modules-2/files-2.1/com.google.zxing/core/3.3.0/73c49077166faa4c3c0059c5f583d1d7bd1475fe/core-3.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="73c49077166faa4c3c0059c5f583d1d7bd1475fe">
+        <dex dex="/Users/ss025783/Projects/AndroidStudioProjects/GOAuthBarcodeReader/app/build/intermediates/transforms/dex/debug/folders/1000/10/core-3.3.0_ca4351784774f3631a67966630d798e6b321fe5f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ss025783/.android/build-cache/9f9440783272f360bdc10bee1d69a22a8b6606d9/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/Users/ss025783/Projects/AndroidStudioProjects/GOAuthBarcodeReader/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e111f04c9a6d40d774554c315c4d76fdf7b18cb1/classes.dex" />
+    </item>
+
+</items>
