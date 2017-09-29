@@ -9,6 +9,10 @@
 
 ### [LAB Assignment-4(wiki)](https://github.com/khushbukolhe/CS5551_KhushbuKolhe_labassignments/wiki/Lab-assignment-4-:-Barcode-Detector)
 
+### [LAB Assignment-5(wiki)](https://github.com/khushbukolhe/CS5551_KhushbuKolhe_labassignments/wiki/Lab-assignment-5-:-Know-Your-Image-App)
+
+
+
 
 
  
