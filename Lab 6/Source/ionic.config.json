@@ -1,0 +1,8 @@
+{
+  "name": "FacesAndRestaurants",
+  "app_id": "545f1280",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
