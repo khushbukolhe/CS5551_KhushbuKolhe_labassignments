@@ -11,6 +11,8 @@
 
 ### [LAB Assignment-5(wiki)](https://github.com/khushbukolhe/CS5551_KhushbuKolhe_labassignments/wiki/Lab-assignment-5-:-Know-Your-Image-App)
 
+### [LAB Assignment-6(wiki)](https://github.com/khushbukolhe/CS5551_KhushbuKolhe_labassignments/wiki/Lab-Assignment-6-:Restaurants-and-Knowledge-Search)
+
 
 
 
