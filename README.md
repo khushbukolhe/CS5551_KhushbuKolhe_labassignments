@@ -13,8 +13,10 @@
 
 ### [LAB Assignment-6(wiki)](https://github.com/khushbukolhe/CS5551_KhushbuKolhe_labassignments/wiki/Lab-Assignment-6-:Restaurants-and-Knowledge-Search)
 
+### [LAB Assignment-7(wiki)](https://github.com/khushbukolhe/CS5551_KhushbuKolhe_labassignments/wiki/Lab-Assignment-7-:-Restaurant-And-Knowledge-Search-:-Continued)
 
 
+https://github.com/khushbukolhe/CS5551_KhushbuKolhe_labassignments/wiki/Lab-Assignment-7-:-Restaurant-And-Knowledge-Search-:-Continued
 
 
  
