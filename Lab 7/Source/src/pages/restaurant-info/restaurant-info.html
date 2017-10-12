@@ -1,0 +1,35 @@
+<!--
+  Generated template for the RestaurantInfoPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>restaurantInfo</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-card>
+    <ion-card-header>{{restaurantInfo.name}}</ion-card-header>
+    <ion-card-content>
+      <div class="card-background">
+          <div><b>Cusine: </b>{{restaurantInfo.cuisines}}</div>
+          <div><b>Address: </b>{{restaurantInfo.location.address}}</div>
+          <div><b>Avg Cost: </b>{{restaurantInfo.average_cost_for_two}} {{restaurantInfo.currency}}</div>      
+          <div><b>User Rating: </b>{{restaurantInfo.user_rating.aggregate_rating}} {{restaurantInfo.user_rating.rating_text}}</div>
+          <div><b>Online Delivery: </b>{{restaurantInfo.has_online_delivery}}</div>    
+      </div>
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+      <div>Maps are coming soon...</div>
+  </ion-card>
+  <ion-card>
+      <div>User reviews coming soon...</div>
+  </ion-card>
+</ion-content>

@@ -1,0 +1,44 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Restaurants and Search</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content overflow-scroll="false" class="contentBackground">
+  <div class="heading">
+    <h1>Welcome to Restaurant and Knowledge Search</h1>
+  </div>
+  <div class="description">
+    <p>This is an IONIC Mash up application for Knowledge Search and Restaurants Search</p>
+  </div>
+  <div class="buttons">
+    <!-- <button ion-button full (click)='openRestaurantsTab();'>Search Restaurants</button>
+    <button ion-button full (click)='openSearchTab();'>Search using Knowledge API</button> -->
+
+    <div *ngIf="isLoggedIn; else facebookLogin">
+      <h2>Hi, {{users.name}} ({{users.email}})</h2>
+      <p>
+        Gender: {{users.gender}}
+      </p>
+      <p>
+        <img src="{{users.picture.data.url}}" width="100" alt="{{users.name}}" />
+      </p>
+      <p>
+        <button ion-button icon-right (click)="logout()">
+          Logout
+        </button>
+      </p>
+    </div>
+    <ng-template #facebookLogin>
+      <button ion-button icon-right (click)="login()">
+        Login with
+        <ion-icon name="logo-facebook"></ion-icon>
+      </button>
+    </ng-template>
+
+  </div>
+  <div class="img-restaurants">
+    <img src="../../assets/image.jpg">
+  </div>
+
+</ion-content>
