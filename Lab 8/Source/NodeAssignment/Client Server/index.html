@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" ng-app="myApp" class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My AngularJS App</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
+    <script src="app.js"></script>
+
+    <style>
+        .menu input{
+            width: 300px;
+            background: white;
+            border: 2px solid black;
+            border-radius: 4px;
+            color: #5e5e5e;
+            font-family: 'Exo', sans-serif;
+            font-size: 16px;
+            font-weight: 600;
+            padding: 6px;
+            margin-top: 10px;
+        }
+        .menu button{
+            width: 419px;
+            height:40px;
+            background:black;
+            border:  2px solid #ffffff;
+            cursor: pointer;
+            border-radius: 4px;
+            color: #ffffff;
+            font-family: 'Exo', sans-serif;
+            font-size: 16px;
+            font-weight: 600;
+            padding: 6px;
+            margin-top: 10px;
+        }
+        table {
+            max-width: 960px;
+            margin: 10px auto;
+            border: 1px solid #FFF;
+        }
+
+        caption {
+            font-size: 1.6em;
+            font-weight: 400;
+            padding: 10px 0;
+        }
+
+        thead th {
+            font-weight: 400;
+            background: #8a97a0;
+            color: #FFF;
+        }
+
+        tr {
+            background: #f4f7f8;
+            border: 1px solid #FFF;
+            margin-bottom: 5px;
+        }
+
+        tr:nth-child(even) {
+            background: #e8eeef;
+        }
+
+        th, td {
+            text-align: left;
+            padding: 20px;
+            font-weight: 300;
+        }
+
+        tfoot tr {
+            background: none;
+        }
+
+        tfoot td {
+            padding: 10px 2px;
+            font-size: 0.8em;
+            font-style: italic;
+            color: #8a97a0;
+        }
+    </style>
+
+</head>
+<body style="background: url(images/img3.jpg);background-size:cover;">
+
+<div  ng-controller="View1Ctrl" style="top: 200px" >
+    <div class="menu" id="div_SearchContainer">
+        <h1 align="absolute" style="text-align: center; color: black">Nutrition and Knowlege Search</h1>
+        <input type="text" id="txt_searchFilter" placeholder="Enter the food" style="margin-left: 500px"/>
+        <button id="btn_getReview" ng-click="getItems()">Search Food Item</button>
+    </div>
+
+    <div style="margin-left: 550px">
+        <h4> This is the mashup of knowledge search api and nutrition api. </h4>
+    </div>
+    <div class="col-sm-3 col-md-6">
+        <li ng-repeat="search in searchResults">
+            <table>
+                <tr>
+                    <td>
+                        <img src="{{search.result.image.contentUrl}}">
+                    </td>
+                    <td>
+                        <div>
+                            <div>
+                                <a  href="" ng-click="getNutrition(search.result.name)" style="font-size: x-large; color: #5e5e5e; text-align: center;">{{search.result.name}}</a>
+                            </div>
+                            <p>{{search.result.description}}</p>
+
+                            <div text-wrap>{{search.result.detailedDescription.articleBody}}</div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </li>
+    </div>
+
+    <div class="col-md-4" ng-model="Nutrion">
+
+
+        <li ng-repeat="nSearch in nutritionresults" style="padding-bottom: 10px">
+            <table class="w3-table w3-striped w3-border w3-centered w3-card-4">
+                <tr>
+                    <th class="w3-indigo" colspan="2">
+                        Food Nutritional Details
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        Item Name
+                    </td>
+                    <td>
+                        {{nSearch.brand_name}}
+                    </td>
+                </tr>
+                <tr class="w3-white">
+                    <td>
+                        Brand Name
+                    </td>
+                    <td>
+                        {{nSearch.brand_name}}
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Total Calories
+                    </td>
+                    <td>
+                        {{nSearch.nf_calories}}
+                    </td>
+                </tr>
+                <tr style="background-color: #fff !important;">
+                    <td>
+                        Total Fat
+                    </td>
+                    <td>
+                        {{nSearch.nf_total_fat}}
+                    </td>
+                </tr>
+            </table>
+        </li>
+        <!--<div text-wrap>{{search.result.detailedDescription.articleBody}}</div>-->
+
+    </div>
+</div>
+
+
+
+
+
+
+
+</body>
+</html>
