@@ -10,7 +10,6 @@ var express = require('express');
 var cors = require('cors');
 var app = express();
 var url = 'mongodb://root:secure@ds125335.mlab.com:25335/khushbudb';
-//var url = 'mongodb://marmik:2621@ds051923.mlab.com:51923/demo';
 app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
