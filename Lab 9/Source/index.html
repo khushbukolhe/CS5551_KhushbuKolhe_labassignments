@@ -1,0 +1,143 @@
+<html ng-app="demoMongo" ng-controller="MongoRestController">
+<head >
+    <title>Registration Page</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link href='http://fonts.googleapis.com/css?family=Rokkitt' rel='stylesheet' type='text/css'>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style type="text/css">
+        .site-bg {
+            position: fixed;
+            height: 100%;
+            width: 100%;
+            z-index: 0;
+            background-image: url(/images/bg.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        .site-bg-overlay {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1;
+            background: rgba(92, 180, 142, 0.4);
+        }
+
+    </style>
+</head>
+<body>
+<div class="base">
+    <div class="heading">
+        <h1>Employee Database Management</h1>
+    </div>
+    <div class="container" >
+        <div class="contact-form insert_style" >
+            <form class="contact_form "  ng-submit="insertData()" name="frm_insert">
+                <h1>Enter Employee Details:</h1>
+                <ul>
+                    <li style="width:100%;">
+                        <input type="text" class="textbox1" name="fname" placeholder="First Name" ng-model="formData.fname" required />
+                    </li>
+                    <li style="width:100%;">
+                        <input type="text" class="textbox1" name="lname" ng-model="formData.lname" placeholder="Last Name" required />
+                    </li>
+                    <li style="width:100%;">
+                        <input type="email" class="textbox1" name="email" ng-model="formData.email" placeholder="example@mail.com" required />
+                    </li>
+                    <li style="width:100%;">
+                        <input type="text" class="textbox1" name="position" ng-model="formData.position" placeholder="Position" required />
+                    </li>
+                    <li style="width:100%;">
+                        <input type="text" class="textbox1" name="salary" ng-model="formData.salary" placeholder="Salary" required />
+                    </li>
+                </ul>
+                <input type="submit" name="Save Data" style="width:100%;background-color: #71B8E4" value="Save Data"/>
+            </form>
+        </div>
+
+
+        <div class="contact-form get_data_style">
+            <form class="contact_form"  style="background: #FFF; width:100%;" ng-submit="gettingData()" name="contact_form">
+                <h1>Get Employee Details:</h1>
+                <input type="submit" name="getInfo" style="width:100%;background-color: #71B8E4" value="Get Details"/>
+
+                <div ng-repeat="x in employeeData">
+                    <article class="article_layout">
+                        <div class="article_layout_in">
+                            <div>ID: {{ x._id}}</div>
+                            <div>FirstName: {{ x.fname}}</div>
+                            <div>LastName: {{ x.lname}}</div>
+                            <div>Email: {{ x.email}}</div>
+                            <div>Position: {{ x.position}}</div>
+                            <div>Salary: {{ x.salary}}</div>
+                        </div>
+                    </article>
+                </div>
+            </form>
+        </div>
+
+
+        <div class="contact-form delete_data_style">
+            <form class="contact_form"  style="background: #FFF; width:100%;" ng-submit="deleteData()" name="contact_form">
+                <h1>Delete Employee:</h1>
+                <ul>
+                    <li style="width:100%;">
+                        <input type="text" class="textbox1" name="id" placeholder="id" ng-model="formData.id" required />
+                    </li>
+                </ul>
+
+                <input type="submit" name="getInfo" style="width:100%;background-color: lightcoral" value="Delete"/>
+            </form>
+        </div>
+
+
+
+        <div class="contact-form update_info_style" >
+            <form class="contact_form"  style="background: #FFF; width:100%;" ng-submit="updateInfo()" name="update_frm">
+                <h1>Update Employee Details:</h1>
+
+                <ul>
+                    <li style="width:100%;">
+                        <input type="text" class="textbox1" name="id1" placeholder="id" ng-model="formDataUpdate.id" required />
+                    </li>
+                    <li style="width:100%;">
+                        <input type="text" class="textbox1" name="fname1" placeholder="First Name" ng-model="formDataUpdate.fname" required />
+                    </li>
+                    <li style="width:100%;">
+                        <input type="text" class="textbox1" name="lname1" ng-model="formDataUpdate.lname" placeholder="Last Name" required />
+                    </li>
+                    <li style="width:100%;">
+                        <input type="email" class="textbox1" name="email1" ng-model="formDataUpdate.email" placeholder="example@mail.com" required />
+                    </li>
+                    <li style="width:100%;">
+                        <input type="text" class="textbox1" name="position" ng-model="formDataUpdate.position" placeholder="Position" required />
+                    </li>
+                    <li style="width:100%;">
+                        <input type="text" class="textbox1" name="salary" ng-model="formDataUpdate.salary" placeholder="Salary" required />
+                    </li>
+                </ul>
+
+                <input type="submit" name="getInfo" style="width:100%; background-color: #71B8E4" value="Update"/>
+            </form>
+        </div>
+
+
+        <!-- end-contact-form -->
+        <div class="footer">
+
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript" src="http://code.angularjs.org/1.1.1/angular.js"></script>
+<script type="text/javascript" src="http://code.angularjs.org/1.1.1/angular-resource.js"></script>
+<script type="text/javascript" src="http://code.angularjs.org/1.1.1/angular-sanitize.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
