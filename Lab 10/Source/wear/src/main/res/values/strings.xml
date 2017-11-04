@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AndroidWearApplication</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="know_fitness">Know Nutrition!</string>
+</resources>

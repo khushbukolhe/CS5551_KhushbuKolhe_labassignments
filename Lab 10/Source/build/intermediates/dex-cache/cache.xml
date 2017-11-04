@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/shriniketsarkar/.android/build-cache/8d36cab5c53f4a43a9c3630ae2d01c5fd7fc2f89/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="/Users/shriniketsarkar/Ase_Documents/Tutorial10/Turorial10Assignment/AndroidWearApplication2/wear/build/intermediates/pre-dexed/debug/classes_6a5bf3a6806578f7a489006332c42672b4cb7973.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shriniketsarkar/.android/build-cache/32e617b3c045722dcdc4ed631c427b07daa262ca/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/shriniketsarkar/Ase_Documents/Tutorial10/Turorial10Assignment/AndroidWearApplication2/wear/build/intermediates/pre-dexed/debug/classes_c70a0a8aac390203dc7655f79614b4ad7f979cbc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shriniketsarkar/.android/build-cache/457861e7f88d85ba7f3fcf52fbb61cc252347fcc/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="/Users/shriniketsarkar/Ase_Documents/Tutorial10/Turorial10Assignment/AndroidWearApplication2/wear/build/intermediates/pre-dexed/debug/classes_066f574433b4cfd74b4a8447d956e846c6f47953.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shriniketsarkar/.android/build-cache/cbebc2e43cc9957c7f9da4890e3656be1144660b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c6aa915c08cfd82780c10d4b957018bf819a48e2">
+        <dex dex="/Users/shriniketsarkar/Ase_Documents/Tutorial10/Turorial10Assignment/AndroidWearApplication2/wear/build/intermediates/pre-dexed/debug/classes_399c00f69d3539370640676cfdb85d0e1ee17791.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shriniketsarkar/.android/build-cache/199ebc9c62f0db9aa6abf91cd508c08e1e4bb78a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="364364bf77b4a71afc5930fc3ae57b3f0eea637c">
+        <dex dex="/Users/shriniketsarkar/Ase_Documents/Tutorial10/Turorial10Assignment/AndroidWearApplication2/wear/build/intermediates/pre-dexed/debug/classes_04fd21f1fe93dc871c8acf8111ef71b3f82fafff.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shriniketsarkar/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.2.0/support-annotations-25.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="/Users/shriniketsarkar/Ase_Documents/Tutorial10/Turorial10Assignment/AndroidWearApplication2/wear/build/intermediates/pre-dexed/debug/support-annotations-25.2.0_d02eebca231f5b37196c05fc359d1651f8d0a397.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shriniketsarkar/.android/build-cache/d8221160068960dde67fbbe6667f58ee78d5165f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2430e711762a749feb00b3d64858ca4768251b9d">
+        <dex dex="/Users/shriniketsarkar/Ase_Documents/Tutorial10/Turorial10Assignment/AndroidWearApplication2/wear/build/intermediates/pre-dexed/debug/classes_18ac8ba691187670bfd4c9797b05080700ad70b6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shriniketsarkar/.android/build-cache/8f03d26f15e4579ac1044a39e3a181ea43917b1f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="/Users/shriniketsarkar/Ase_Documents/Tutorial10/Turorial10Assignment/AndroidWearApplication2/wear/build/intermediates/pre-dexed/debug/classes_e1559c5efe43b9c184aeb1c30e8194203e1a32f7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shriniketsarkar/.android/build-cache/a038795c5d26034fa3fe387bc6b6482375520814/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
+        <dex dex="/Users/shriniketsarkar/Ase_Documents/Tutorial10/Turorial10Assignment/AndroidWearApplication2/wear/build/intermediates/pre-dexed/debug/classes_c6112b08f5986c8f7492b0063f34dfdbd4332d4d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shriniketsarkar/.android/build-cache/b8b7d093943ffb0e5b2b3f7e7bb58d169490d81d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="70ffe00aaf049893f59d1dad57bd82992faa38ef">
+        <dex dex="/Users/shriniketsarkar/Ase_Documents/Tutorial10/Turorial10Assignment/AndroidWearApplication2/wear/build/intermediates/pre-dexed/debug/classes_af92fc7e500085b7fd3f5d5a18c3c72d0039113c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shriniketsarkar/.android/build-cache/3e628b57db780662db3553db22992545693b16c4/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="/Users/shriniketsarkar/Ase_Documents/Tutorial10/Turorial10Assignment/AndroidWearApplication2/wear/build/intermediates/pre-dexed/debug/classes_782202eb3c3ee63baaf5d328a1ba33bac0477d21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shriniketsarkar/.android/build-cache/988f2135ea03593120015e38269636acfd442a87/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="/Users/shriniketsarkar/Ase_Documents/Tutorial10/Turorial10Assignment/AndroidWearApplication2/wear/build/intermediates/pre-dexed/debug/classes_97de066d1279b6a5fce8e19957c89312af6c466a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shriniketsarkar/.android/build-cache/208e7636f3e5eb56ce718e147beef7948466acc4/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ac293d0ffbcbf7333f3a88268b702a33e5c7d2e8">
+        <dex dex="/Users/shriniketsarkar/Ase_Documents/Tutorial10/Turorial10Assignment/AndroidWearApplication2/wear/build/intermediates/pre-dexed/debug/classes_f4eb92fae32fbea807a83c56d2c348cb00cb406d.jar" />
+    </item>
+
+</items>
